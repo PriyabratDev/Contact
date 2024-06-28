@@ -4,8 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <style>
+        body{
+            background-color: #be8b57;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        td{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+        }
+        input{
+            border: 2px solid whitesmoke ;
+            border-radius: 10px;
+            height: 10px;
+            width: 225px;
+            background-color: rgba(255, 255, 255, 0.137);
+            padding: 10px;
+        }
+        textarea{
+            border: 2px solid whitesmoke ;
+            border-radius: 10px;
+            height: 40px;
+            width: 225px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.137);
+        }
+    </style>
 </head>
 <body>
-    
+    <div style="display: flex;flex-direction:column;align-items: center;justify-content: center;height: 756px;width: 670px;border-radius:50px;background-color: rgba(245, 245, 245, 0.26);">
+        <h1 style="font-family: Arial, Helvetica, sans-serif;color: white;font-size: 36px;"><u>Contact Us</u></h1>
+        <div style="display:flex;flex-direction: column;align-items: center;height :85%;width: 75%;">
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td>&emsp;&emsp;</td>
+                    <td><input type="text" id="Fname" name="Fname" required></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td>&emsp;&emsp;</td>
+                    <td><input type="text" id="Lname" name="Lname" required></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Company Name</td>
+                    <td>&emsp;&emsp;</td>
+                    <td><input type="text" id="Cname" name="Cname" required></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Company Email</td>
+                    <td>&emsp;&emsp;</td>
+                    <td><input type="email" id="Cemail" name="Cemail" required></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Phone No.</td>
+                    <td>&emsp;&emsp;</td>
+                    <td><input type="number" id="phno" name="phno" required></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Job Title</td>
+                    <td>&emsp;&emsp;</td>
+                    <td><input type="text" name="title" id="title" required></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>&emsp;&emsp;</td>
+                    <td><input type="text" name="title" id="title" required></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Message</td>
+                    <td>&emsp;&emsp;</td>
+                    <td><textarea id="message" name="message" required></textarea></td>
+                </tr>
+            </table>
+            <br>
+            
+            <input type="submit" value="SEND MESSAGE" style="width: 150PX;
+                height: 35px;
+                border-radius: 10px;
+                border: 2px solid white;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.301);
+                background-color: rgba(245, 245, 245, 0.445);
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight:normal;">
+            <p style="font-size: 16px;">*Please Note: all fields are required</p>
+        </div>
+        
+    </div>
 </body>
 </html>
